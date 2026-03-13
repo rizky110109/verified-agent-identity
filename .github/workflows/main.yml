@@ -16,7 +16,6 @@ jobs:
 verify:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout repo
     uses: actions/checkout@v3
@@ -40,4 +39,4 @@ steps:
   - name: Step 3 - Link Human to Agent
     run: |
       node scripts/manualLinkHumanToAgent.js --challenge '{"name": "rizky110109", "description": "rizky110109 AI Agent"}'
-```
+
